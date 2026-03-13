@@ -126,7 +126,7 @@ const Carousel = () => {
     <div className="carousel-wrapper glitter-box">
       <div className="heading"><img
   className="logo"
-  src={`${import.meta.env.BASE_URL}logo.png`}
+  src={`${import.meta.env.BASE_URL}new/logo.png`}
   alt="logo"
 />
 <h1 className="title glitter-text">MT PREMIER LEAGUE 2026</h1></div>
