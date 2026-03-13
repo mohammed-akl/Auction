@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import "./Carousel.css";
 
-const BASE = import.meta.env.BASE_URL;
+const BASE = import.meta.env.BASE_URL+"new/";
 
 /*const initialPlayers = [
   { id: 1, name: "AFTHAB", img: `${BASE}AFTHAB.png` },
@@ -36,10 +36,32 @@ const BASE = import.meta.env.BASE_URL;
 
 const initialPlayers = [
   { id: 1, name: "AFTHAB", img: `${BASE}1.png` },
-  { id: 2, name: "AFTHAB", img: `${BASE}1.png` },
-  { id: 3, name: "AFTHAB", img: `${BASE}1.png` },
-  { id: 4, name: "AFTHAB", img: `${BASE}1.png` },
-  { id: 5, name: "AFTHAB", img: `${BASE}1.png` },
+  { id: 2, name: "AFTHAB", img: `${BASE}2.png` },
+  { id: 3, name: "AFTHAB", img: `${BASE}3.png` },
+  { id: 4, name: "AFTHAB", img: `${BASE}4.png` },
+  { id: 5, name: "AFTHAB", img: `${BASE}5.png` },
+  { id: 6, name: "AFTHAB", img: `${BASE}6.png` },
+  { id: 7, name: "AFTHAB", img: `${BASE}7.png` },
+  { id: 8, name: "AFTHAB", img: `${BASE}8.png` },
+  { id: 9, name: "AFTHAB", img: `${BASE}9.png` },
+  { id: 10, name: "AFTHAB", img: `${BASE}10.png` },
+  { id: 11, name: "AFTHAB", img: `${BASE}11.png` },
+  { id: 12, name: "AFTHAB", img: `${BASE}12.png` },
+  { id: 13, name: "AFTHAB", img: `${BASE}13.png` },
+  { id: 14, name: "AFTHAB", img: `${BASE}14.png` },
+  { id: 15, name: "AFTHAB", img: `${BASE}15.png` },
+  { id: 16, name: "AFTHAB", img: `${BASE}16.png` },
+  { id: 17, name: "AFTHAB", img: `${BASE}17.png` },
+  { id: 18, name: "AFTHAB", img: `${BASE}18.png` },
+  { id: 19, name: "AFTHAB", img: `${BASE}19.png` },
+  { id: 20, name: "AFTHAB", img: `${BASE}20.png` },
+  { id: 21, name: "AFTHAB", img: `${BASE}21.png` },
+  { id: 22, name: "AFTHAB", img: `${BASE}22.png` },
+  { id: 23, name: "AFTHAB", img: `${BASE}23.png` },
+  { id: 24, name: "AFTHAB", img: `${BASE}24.png` },
+  { id: 25, name: "AFTHAB", img: `${BASE}25.png` },
+  { id: 26, name: "AFTHAB", img: `${BASE}26.png` },
+
 ];
 
 const Carousel = () => {
@@ -104,7 +126,7 @@ const Carousel = () => {
     <div className="carousel-wrapper glitter-box">
       <div className="heading"><img
   className="logo"
-  src={`${import.meta.env.BASE_URL}WhatsApp_Image_2025-12-14_at_00.23.36_a59e74c7-removebg-preview.png`}
+  src={`${import.meta.env.BASE_URL}logo.png`}
   alt="logo"
 />
 <h1 className="title glitter-text">MT PREMIER LEAGUE 2026</h1></div>
