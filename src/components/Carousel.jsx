@@ -3,7 +3,7 @@ import "./Carousel.css";
 
 const BASE = import.meta.env.BASE_URL;
 
-const initialPlayers = [
+/*const initialPlayers = [
   { id: 1, name: "AFTHAB", img: `${BASE}AFTHAB.png` },
   { id: 2, name: "ASHIQ", img: `${BASE}ASHIQ.png` },
   { id: 3, name: "ASIF", img: `${BASE}ASIF.png` },
@@ -32,6 +32,14 @@ const initialPlayers = [
   { id: 26, name: "SHAMEEM", img: `${BASE}SHAMEEM.png` },
   { id: 27, name: "SHIBILI", img: `${BASE}SHIBILI.png` },
   { id: 28, name: "SUHAIL", img: `${BASE}SUHAIL.png` },
+];*/
+
+const initialPlayers = [
+  { id: 1, name: "AFTHAB", img: `${BASE}1.png` },
+  { id: 2, name: "AFTHAB", img: `${BASE}1.png` },
+  { id: 3, name: "AFTHAB", img: `${BASE}1.png` },
+  { id: 4, name: "AFTHAB", img: `${BASE}1.png` },
+  { id: 5, name: "AFTHAB", img: `${BASE}1.png` },
 ];
 
 const Carousel = () => {
