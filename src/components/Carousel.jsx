@@ -99,7 +99,7 @@ const Carousel = () => {
   src={`${import.meta.env.BASE_URL}WhatsApp_Image_2025-12-14_at_00.23.36_a59e74c7-removebg-preview.png`}
   alt="logo"
 />
-<h1 className="title glitter-text">SUMJAY PREMIER LEAGUE 2025</h1></div>
+<h1 className="title glitter-text">MT PREMIER LEAGUE 2026</h1></div>
 
 
       {!selectedPlayer && (
